@@ -36,5 +36,5 @@ jobs:
     - name: Invoke deployment hook
       uses: distributhor/workflow-webhook@v1
       env:
-        webhook_url: "https://prod-04.westcentralus.logic.azure.com:443/workflows/ca81f0a1e72c4537855baa6b79842aa9/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=LxP0tU_JoNqgQO6Rc-_D8SMUtbjQuDm_UKr74KPgIIE"
+        webhook_url: "https://prod-10.westcentralus.logic.azure.com:443/workflows/83d218d55f25495c8aaccbef4f8afa31/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=IRQOp5g62DzYndqVfs7NJQslr_IiwbhsgoJm2njvC7E"
         webhook_secret: "hello"
